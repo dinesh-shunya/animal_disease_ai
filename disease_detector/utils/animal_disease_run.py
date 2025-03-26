@@ -30,5 +30,4 @@ def diagnose(image_path, problem_area="neck", animal_info=animal_info, questions
     initialize_vertexai()
     print("images recieved are ",image_path)
     diagnosis = generate_diagnosis2(image_path, animal_info, problem_area, questions_and_answers)
-
     return json.dumps(diagnosis, indent=4)

@@ -145,13 +145,16 @@ def find_animal_images(image_paths,animal_name,age):
         "estimated_age": "Approximate age range (e.g., '1-2 years', '5-7 years')",
         "notable_features": ["List", "any", "distinctive", "physical features", "or", "markings"],
         "all_images_match": "True if all images are of the same animal (same entity), False otherwise",
-        "list_of_images": {{
-            "image1": 1 or 0,  # 1 if it's of the same entity (same animal and same person(entity)), else 0
-            "image2": 1 or 0,  # 1 if it's of the same entity (same animal and same person(entity)) , else 0
-            "image3": 1 or 0,  # 1 if it's of the same entity (same animal and same person(entity) ), else 0
+        "list_of_images": {{ 
+                list item contains key image_name which stores image name as value and second item in list is matches which stores boolean value if image is of same entity or not make sure you give this format for each image
+                 ["image_name" : "image's name as string", 
+                "matches" : "True if it's of the same entity (same animal and same person(entity)), False otherwise , format should be exactly same image_name is fix key whose value is image name and matches is fix key whose value is boolean"],
+                ["image_name" : "image's name as string",
+                              "matches" : "True if it's of the same entity (same animal and same person(entity)), False otherwise , format should be exactly same image_name is fix key whose value is image name and matches is fix key whose value is boolean"],
             and all other images... 
         }}
     }}
+    
 
     Important Guidelines:
     - Ensure the images are of the same entity (not different animals).

@@ -94,6 +94,15 @@ class GetAnimal(View):
             age = request.POST.get('age')
             # Process images
             output = find_animal(temp_image_paths,animal_name,age)
+            print("***********output***************")
+            print()
+            print()
+            print()
+            print(output)
+            print()
+            print()
+            print()
+            print("***********output***************")
             output_dict = json.loads(output)
 
             # Create the main CowRecord entry
