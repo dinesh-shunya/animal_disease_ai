@@ -1,0 +1,43 @@
+
+Django
+django-cors-headers
+django-requests
+djangorestframework
+djangorestframework-simplejwt
+# firebase-admin
+# google
+# google-api-core
+# google-api-python-client
+# google-auth
+# google-auth-httplib2
+# google-cloud-aiplatform
+# google-cloud-bigquery
+# google-cloud-core
+# google-cloud-firestore
+# google-cloud-resource-manager
+# google-cloud-storage
+# google-crc32c
+# google-resumable-media
+#googleapiclient
+# googleapis-common-protos
+# grpc
+# grpc-google-iam-v1
+# grpc-status
+# grpcio
+# grpcio-status
+httplib2
+scikit-learn
+PyJWT
+PyMySQL
+PySocks
+SQLAlchemy
+PyMongo
+matplotlib
+numpy
+pandas
+protobuf
+pytz
+requests
+sqlalchemy
+sqlparse
+vertexai
